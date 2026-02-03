@@ -1,0 +1,217 @@
+
+      div {
+        display: inline-block;
+        margin: 4px;
+        vertical-align: middle;
+      }
+
+      .subscribe-button {
+        background-color: rgb(200, 0, 0);
+        color: white;
+        border: none;
+        padding: 10px 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        border-radius: 8px;
+        cursor: pointer;
+        margin: 0 8px;
+        transition: opacity 0.15s;
+        vertical-align: top;
+      }
+
+      .subscribe-button:hover {
+        opacity: 0.8;
+      }
+
+      .subscribe-button:active {
+        opacity: 0.5;
+      }
+
+      .join-button {
+        background-color: white;
+        border: 1px solid rgb(41, 118, 211);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        color: rgb(41, 118, 211);
+        height: 36px;
+        width: 62px;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background-color 0.8s, color 0.8s;
+      }
+
+      .join-button:hover {
+        background-color: rgb(41, 118, 211);
+        color: #fff;
+      }
+
+      .join-button:active {
+        opacity: 0.7;
+      }
+
+      .tweet-button {
+        background-color: rgb(2, 158, 255);
+        color: white;
+        border: none;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        height: 36px;
+        width: 74px;
+        border-radius: 18px;
+        font-weight: bold;
+        font-size: 15px;
+        cursor: pointer;
+        margin-left: 8px;
+        transition: box-shadow 0.25s;
+      }
+
+      .tweet-button:hover {
+        box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.15);
+      }
+
+      .request-now-button {
+        background-color: black;
+        color: white;
+        border: 1px solid black;
+        height: 36px;
+        width: 105px;
+        border-radius: 4px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        font-size: 11px;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: opacity 0.45s, background-color 0.45s, border-color 0.45s,
+          color 0.45s;
+      }
+
+      .request-now-button:hover {
+        background-color: white;
+        color: black;
+        opacity: 0.55;
+      }
+
+      .add-to-cart-button {
+        background-color: rgb(255, 216, 20);
+        border: none;
+        border-radius: 15px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        height: 32px;
+        width: 150px;
+        font-size: smaller;
+        margin-top: 8px;
+        margin-left: 8px;
+        cursor: pointer;
+        transition: background-color 0.55s;
+      }
+
+      .add-to-cart-button:hover {
+        background-color: rgb(220, 187, 18);
+      }
+
+      .sign-up-button {
+        background-color: rgb(86, 192, 116);
+        border: 1px solid rgb(86, 192, 116);
+        color: white;
+        border-radius: 4px;
+        height: 33px;
+        width: 85px;
+        font-weight: bolder;
+        margin-left: 8px;
+        margin-top: 8px;
+        cursor: pointer;
+        transition: box-shadow 0.25s;
+      }
+
+      .sign-up-button:hover {
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.15);
+      }
+
+      .download-button {
+        background-color: white;
+        color: grey;
+        border: 1px solid grey;
+        border-radius: 4px;
+        height: 32px;
+        width: 105px;
+        font-weight: bolder;
+        margin-left: 8px;
+        margin-top: 8px;
+        cursor: pointer;
+        transition: background-color 0.35s, color 0.35s;
+      }
+
+      .download-button:hover {
+        background-color: grey;
+        color: white;
+      }
+
+      .get-started-button {
+        height: 32px;
+        width: 105px;
+        margin-left: 8px;
+        margin-top: 8px;
+        border-radius: 4px;
+        border: 1px solid rgb(156, 113, 208);
+        background-color: rgb(156, 113, 208);
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.55s, color 0.55s;
+      }
+
+      .get-started-button:hover {
+        background-color: white;
+        color: rgb(156, 113, 208);
+      }
+
+      .apply-button {
+        height: 32px;
+        width: 190px;
+        margin-top: 8px;
+        margin-left: 8px;
+        border-radius: 15px;
+        border: 1px solid rgb(74, 74, 237);
+        background-color: rgb(74, 74, 237);
+        color: white;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: background-color 0.55s, color 0.55s;
+      }
+
+      .apply-button:hover {
+        background-color: white;
+        color: rgb(74, 74, 237);
+      }
+
+      .save-button {
+        height: 32px;
+        width: 60px;
+        margin-top: 8px;
+        margin-left: 4px;
+        border-radius: 15px;
+        border: 1px solid rgb(74, 74, 237);
+        background-color: white;
+        color: rgb(74, 74, 237);
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI',
+          Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+          sans-serif;
+        font-weight: bolder;
+        cursor: pointer;
+        transition: background-color 0.55s, color 0.55s;
+      }
+
+      .save-button:hover {
+        background-color: rgb(74, 74, 237);
+        color: white;
+      }
+  
